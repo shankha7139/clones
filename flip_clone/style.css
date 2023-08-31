@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Poppins:wght@400;700&family=Raleway:wght@200;300;900&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-family: "Barlow", sans-serif;
+    background: var(--main-bg-color);
+}
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 88px;
+    padding: 0 23px;
+}
+
+nav ul {
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav .searchbar{
+    display: flex;
+    align-items: center;
+}
+.searchbar input{
+    width: 500px;
+    height: 25px;
+    border-radius: 2px;
+    margin: 0 15px 0 50px;
+    
+}
+
+.container{
+    min-height: calc(100vh - 55px - 12vh);
+}
+
+footer {
+    font-family: "Barlow", sans-serif;
+    height: 12vh;
+    background: #000;
+    color: #fff;
+}

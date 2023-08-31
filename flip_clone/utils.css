@@ -1,0 +1,20 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    font-family: "Barlow", sans-serif;
+    padding:5px 10px ;
+    color: white;
+    background-color: var(--main-bg-color);
+    border-radius: 4px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bolder;
+    background: rgb(72, 142, 211);
+    border-radius: 7px;
+}
